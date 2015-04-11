@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <!-- 1 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_one"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_one"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_one"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 2 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_two"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_two"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_two"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 3 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_three"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_three"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_three"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 4 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_four"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_four"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_four"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 5 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_five"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_five"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_five"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <!-- 6 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_six"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_six"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_six"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 7 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_seven"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_seven"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_seven"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 8 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_eight"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_eight"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_eight"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 9 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_nine"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_nine"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_nine"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+        <!-- 10 -->
+
+        <RelativeLayout
+            android:id="@+id/fragment_music_singer_item_ten"
+            android:layout_width="@dimen/vp_item_width"
+            android:layout_height="@dimen/vp_item_height"
+            android:layout_marginLeft="5dp" >
+
+            <ImageView
+                android:id="@+id/fragment_music_singer_item_image_iv_ten"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/item_bg" />
+
+            <TextView
+                android:id="@+id/fragment_music_singer_item_name_tv_ten"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/vp_item_name_bg"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
