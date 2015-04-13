@@ -95,10 +95,11 @@ public class MainViewPagerAdapter extends PagerAdapter implements OnClickListene
 
     private void initItemData(ViewHolder viewHolder, View view, int position) {
         int totalInItemCount = singerList.size();
+        int tempitemInCount= (int) itemInCount;
         //每页显示10个item
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < tempitemInCount; i++) {
             //计算当前页要显示的item在arraylist中的position。
-            int inItemPosition = position * 10 + i;
+            int inItemPosition = position *tempitemInCount + i;
             //如果最后一页显示不满时跳出循环，后面的item不再显示
             if (inItemPosition >= totalInItemCount) {
                 break;
